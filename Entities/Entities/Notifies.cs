@@ -51,7 +51,7 @@ namespace Entities.Entities
             {
                 Notifications.Add(new Notifies
                 {
-                    Message = "The manufacture date cannot be later than the expiry date."
+                    Message = "The manufacture date cannot be later or equal than the expiry date."
                 });
                 return false;
             }
