@@ -47,7 +47,7 @@ namespace Entities.Entities
         {
             int result = DateTime.Compare(manufactureDate, expiryDate);
 
-            if (result > 0)
+            if (result >= 0)
             {
                 Notifications.Add(new Notifies
                 {
