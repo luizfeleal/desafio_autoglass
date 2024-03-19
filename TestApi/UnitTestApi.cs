@@ -33,7 +33,7 @@ namespace TestProjectManagerApi
             var client = new HttpClient();
             var content = new StringContent(JsonConvert.SerializeObject(product), Encoding.UTF8, "application/json");
          
-            var response = await client.PostAsync($"{BaseUrl}/api/Produtos", content);
+            var response = await client.PostAsync($"{BaseUrl}/api/products", content);
  
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             
@@ -52,7 +52,7 @@ namespace TestProjectManagerApi
             var client = new HttpClient();
             var content = new StringContent(JsonConvert.SerializeObject(product), Encoding.UTF8, "application/json");
             
-            var response = await client.PutAsync($"{BaseUrl}/api/Produtos", content);
+            var response = await client.PutAsync($"{BaseUrl}/api/products", content);
        
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             
@@ -67,7 +67,7 @@ namespace TestProjectManagerApi
 
             var client = new HttpClient();
          
-            var response = await client.DeleteAsync($"{BaseUrl}/api/Produtos/{productId}");
+            var response = await client.DeleteAsync($"{BaseUrl}/api/products/{productId}");
        
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             
@@ -81,7 +81,7 @@ namespace TestProjectManagerApi
 
             var client = new HttpClient();
         
-            var response = await client.GetAsync($"{BaseUrl}/api/Produtos/{productId}");
+            var response = await client.GetAsync($"{BaseUrl}/api/products/{productId}");
       
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             
@@ -92,7 +92,7 @@ namespace TestProjectManagerApi
         {
             var client = new HttpClient();
 
-            var response = await client.GetAsync($"{BaseUrl}/api/Produtos/");
+            var response = await client.GetAsync($"{BaseUrl}/api/products/");
 
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
@@ -109,7 +109,7 @@ namespace TestProjectManagerApi
             var client = new HttpClient();
             var content = new StringContent(JsonConvert.SerializeObject(filter), Encoding.UTF8, "application/json");
 
-            var response = await client.PostAsync($"{BaseUrl}/api/Produtos/filtered/", content);
+            var response = await client.PostAsync($"{BaseUrl}/api/products/filtered/", content);
 
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }

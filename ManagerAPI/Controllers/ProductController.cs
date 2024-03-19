@@ -31,7 +31,7 @@ namespace ManagerAPI.Controllers
 
 
         [Produces("application/json")]
-        [HttpPost("/api/Produtos")]
+        [HttpPost("/api/products")]
         public async Task<List<Notifies>> Add(ProductViewModel product)
         {
             var productMap = _IMapper.Map<Product>(product);
@@ -42,7 +42,7 @@ namespace ManagerAPI.Controllers
 
 
         [Produces("application/json")]
-        [HttpPut("/api/Produtos")]
+        [HttpPut("/api/products")]
         public async Task<List<Notifies>> Update(ProductViewModel product)
         {
             var productMap = _IMapper.Map<Product>(product);
@@ -52,7 +52,7 @@ namespace ManagerAPI.Controllers
         }
 
         [Produces("application/json")]
-        [HttpDelete("/api/Produtos/{productId}")]
+        [HttpDelete("/api/products/{productId}")]
         public async Task<List<Notifies>> Delete(int productId)
         {
             var notifies = new List<Notifies>();
@@ -72,7 +72,7 @@ namespace ManagerAPI.Controllers
 
 
         [Produces("application/json")]
-        [HttpGet("/api/Produtos/{productId}")]
+        [HttpGet("/api/products/{productId}")]
         public async Task<ProductViewModel> GetEntityById(int productId)
         {
             var product = await _IProduct.GetEntityById(productId);
@@ -83,7 +83,7 @@ namespace ManagerAPI.Controllers
         }
 
         [Produces("application/json")]
-        [HttpGet("/api/Produtos/")]
+        [HttpGet("/api/products/")]
         public async Task<List<ProductViewModel>> List()
         {
             var products = await _IProduct.List();
@@ -92,7 +92,7 @@ namespace ManagerAPI.Controllers
         }
         
         [Produces("application/json")]
-        [HttpPost("/api/Produtos/filtered/")]
+        [HttpPost("/api/products/filtered/")]
         public async Task<List<ProductViewModel>> ListWithFilter([FromBody] ProductViewModel filter, int pageIndex, int pageSize)
         {
             var modelFilter = _IMapper.Map<Product>(filter);
