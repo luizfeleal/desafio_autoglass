@@ -1,0 +1,15 @@
+C:\ProdManagerApiChallengeAutoglass\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\ProdManagerApiChallengeAutoglass\Domain\bin\Debug\net5.0\Domain.dll
+C:\ProdManagerApiChallengeAutoglass\Domain\bin\Debug\net5.0\Domain.pdb
+C:\ProdManagerApiChallengeAutoglass\Domain\bin\Debug\net5.0\Entities.dll
+C:\ProdManagerApiChallengeAutoglass\Domain\bin\Debug\net5.0\Entities.pdb
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.dll
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\refint\Domain.dll
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\Domain.pdb
+C:\ProdManagerApiChallengeAutoglass\Domain\obj\Debug\net5.0\ref\Domain.dll

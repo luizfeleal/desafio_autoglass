@@ -1,0 +1,11 @@
+C:\ProdManagerApiChallengeAutoglass\Entities\bin\Debug\net5.0\Entities.deps.json
+C:\ProdManagerApiChallengeAutoglass\Entities\bin\Debug\net5.0\Entities.dll
+C:\ProdManagerApiChallengeAutoglass\Entities\bin\Debug\net5.0\Entities.pdb
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.dll
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\refint\Entities.dll
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\Entities.pdb
+C:\ProdManagerApiChallengeAutoglass\Entities\obj\Debug\net5.0\ref\Entities.dll

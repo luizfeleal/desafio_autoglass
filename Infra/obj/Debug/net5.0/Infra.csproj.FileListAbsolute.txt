@@ -1,0 +1,17 @@
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Infra.deps.json
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Infra.dll
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Infra.pdb
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Domain.dll
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Entities.dll
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Domain.pdb
+C:\ProdManagerApiChallengeAutoglass\Infra\bin\Debug\net5.0\Entities.pdb
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.csproj.AssemblyReference.cache
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.AssemblyInfoInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.AssemblyInfo.cs
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.csproj.CoreCompileInputs.cache
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.csproj.CopyComplete
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.dll
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\refint\Infra.dll
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\Infra.pdb
+C:\ProdManagerApiChallengeAutoglass\Infra\obj\Debug\net5.0\ref\Infra.dll
