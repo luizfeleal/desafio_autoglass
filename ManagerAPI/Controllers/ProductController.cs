@@ -59,6 +59,13 @@ namespace ManagerAPI.Controllers
 
             try
             {
+                var product = await _IProduct.GetEntityById(productId);
+            
+                if (product == null)
+                {
+                notifies.Add(new Notifies { SuccessMessage = "Produto não encontrado." });
+                    return notifies;
+                }
                 await _IServiceProduct.Delete(productId);
                 notifies.Add(new Notifies { SuccessMessage = "Produto excluído com sucesso." });
             }
