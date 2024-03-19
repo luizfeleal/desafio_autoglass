@@ -63,7 +63,7 @@ namespace ManagerAPI.Controllers
             
                 if (product == null)
                 {
-                notifies.Add(new Notifies { SuccessMessage = "Produto não encontrado." });
+                notifies.Add(new Notifies { Message = "Produto não encontrado." });
                     return notifies;
                 }
                 await _IServiceProduct.Delete(productId);
